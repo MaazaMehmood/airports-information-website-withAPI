@@ -37,9 +37,8 @@ const phn = document.querySelector('.phn');
 
 
 // -------------search function
-const searchFunc = event => {
-
-  event.preventDefault();  // Prevent form submission
+function searchFunc( ) {
+  
   let inputIata = document.getElementById('search-input').value;
   
   if (inputIata) {
@@ -68,7 +67,11 @@ const searchFunc = event => {
 }
 
 searchFunc();
-document.getElementById('search').addEventListener('click', searchFunc);
+
+document.getElementById('searchForm').addEventListener('submit', (event) => {
+  event.preventDefault();
+  searchFunc();
+});
 
 
 
