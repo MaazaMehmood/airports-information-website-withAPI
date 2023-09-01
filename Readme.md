@@ -1,4 +1,4 @@
-# AirPortal
+## AirPortal
 
 Welcome to the AirPortal! This website provides valuable information about various airports from around the world, helping travelers and aviation enthusiasts explore airport details, locations, and more.
 
@@ -14,7 +14,9 @@ Welcome to the AirPortal! This website provides valuable information about vario
 1. Clone the repository: `git clone https://github.com/MaazaMehmood/airports-information-website-usingAPI
 2. Open the `index.html` file in your preferred web browser.
 
-## Access to  live demo here ''
+## Demo
+
+- Access live demo here 'https://info-931d28.netlify.app/'.
 
 ## Technologies Used
 
